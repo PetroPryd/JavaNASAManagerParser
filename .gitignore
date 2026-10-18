@@ -3,3 +3,4 @@ build/
 *.class
 nbproject/private/
 .DS_Store
+Dao/src/main/resources/config/db.properties

@@ -46,7 +46,7 @@ public final class DataSourceSingleton {
         Properties properties = new Properties();
         try (InputStream is = DataSourceSingleton.class.getResourceAsStream(PATH)) {
             if (is == null) {
-                throw new DataAccessException("Cannot find " + PATH + " on the classpath.");
+                throw new DataAccessException("Cannot find " + PATH + " on the classpath. Copy db.properties.example to db.properties and fill in your SQL Server login.");
             }
             properties.load(is);
         } catch (IOException ex) {

@@ -1,4 +1,4 @@
 SERVER_NAME = localhost
 DATABASE_NAME = NASAITEMS
-USER = sa
-PASSWORD = SQL
+USER = your_sql_login
+PASSWORD = your_password
